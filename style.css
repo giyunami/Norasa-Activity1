@@ -71,7 +71,7 @@
   header {
     width: 100vw;
     height: 100vh;
-    background: url(2324804.jpg)no-repeat;
+    background-image: url(2324804.jpg)no-repeat;
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -111,7 +111,7 @@
   section{
     width: 100vw;
     height: 100vh;
-    background: url(pexels-rodnae-productions-7978819.jpg)no-repeat;
+    background-image: url(pexels-rodnae-productions-7978819.jpg)no-repeat;
     background-position: bottom;
     background-size: cover;
     display: block;
@@ -164,7 +164,7 @@ p{
 .potions{
   width: 100vw;
   height: 100vh;
-  background: url(pexels-rodnae-productions-7978821.jpg)no-repeat;
+  background-image: url(pexels-rodnae-productions-7978821.jpg)no-repeat;
   background-position: bottom;
   background-size: cover;
   display: flex;
@@ -223,7 +223,7 @@ h2 {
 .service {
   width: 100%;
   height: 80vh;
-  background: url(feather.jpg);
+  background-image: url(feather.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
