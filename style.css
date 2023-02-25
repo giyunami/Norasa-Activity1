@@ -1,0 +1,256 @@
+
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Zeyada&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'New Rocker', cursive;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  ul{
+    list-style: none;
+  }
+
+  body , html{
+    overflow-x: hidden;
+  }
+
+
+  .navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+  }
+
+  .nav-links {
+    display: flex;
+  padding: 8px 10px;
+  background: black;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+
+
+  }
+  .ctn {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    outline: none;
+    box-shadow: 0 1px;
+
+  }
+
+.ctn:hover{
+  opacity: 0.9;
+
+}
+
+  
+  .nav-links li{
+    margin: 0 30px;
+  }
+
+  header {
+    width: 100vw;
+    height: 100vh;
+    background: url(../images/2324804.jpg)no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .header-content{
+    margin-bottom: 150px;
+    color: whitesmoke; 
+    text-align: center;
+  }
+  .header-content h2 {
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+  }
+  .header-content h2 span{
+    color: white;
+    font-size: 9vmin;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .ctn {
+    padding: 8px 15px;
+    background: black;
+    border-radius: 30px;
+    color: white;
+
+  }
+
+  section{
+    width: 100vw;
+    height: 100vh;
+    background: url(../images/pexels-rodnae-productions-7978819.jpg)no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+.row{
+  display: flex;
+  text-align: justify;
+  width: 10px;
+  justify-content: space-between
+}
+.row h2 {
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: white;
+}
+.row .col {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  float: left;
+}
+.clearfix{
+  clear: both;
+}
+.events .row {
+  margin-top: 50px auto;
+}
+h4 {
+  font-size: 3vmin;
+  color: white;
+  margin: 20px auto;
+}
+p{
+  color: rgb(253, 253, 253);
+  padding: 0px 40px;
+}
+.events .info-btn {
+  margin-top: 30px;
+  padding: 8px 10px;
+  background: black;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+
+}
+.potions{
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/pexels-rodnae-productions-7978821.jpg)no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.potion-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 90px;
+  color: white;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery figure {
+  margin: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+
+}
+
+.gallery figcaption {
+  margin-bottom: 20px;
+  font-style: normal;
+  font-size: 17px;
+  text-align: center
+}
+
+.potions .info-btn {
+  margin-top: 50px;
+  padding: 5px 10px;
+  background: black;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+}
+.potions .potion-content{
+  margin-top: 50px auto;
+
+}
+.service {
+  width: 100%;
+  height: 80vh;
+  background: url(../images/feather.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+
+
+}
+.service-content{
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.service-content h4{
+  margin-bottom: 50px;
+  font-size: 7vmin;
+}
+.service-content p{
+  margin-bottom: 20px;
+  font-size: 4vmin;
+  align-items: center;
+  color: rgb(3, 2, 2);
+}
+.service-content .ctn{
+  margin-top: 20px;
+  
+}
